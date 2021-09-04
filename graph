@@ -1,0 +1,39 @@
+graph
+
+:is datastructure which consists of vertices and edges.
+vertices-nodes
+edges-paths
+real world example-friends on social media
+
+graph-directed,undirected
+directed-edges are directed
+example-web crawler,visiting one page from another page on website
+
+undirected-edges are not directed.if v1 and v2 are connected,v1 is friend of v2 also v2 is friend of v1
+example-social media friends
+
+walk-repetation of connected edges are allowed.
+v1,v2,v4,v2
+
+path-connecting the nodes without repeatation of vertices.
+v1,v2,v4
+
+cyclic-the connected graph in which the starting and ending vertices are same
+acyclic-not connected
+
+weighted-graphs which have weighted vertices
+example-the roads refer to the edges
+        the length of roads refer to weights
+        the cities refer to vertices
+        
+unweighted-without weights
+
+->Adjacency matrix: representation of graph which takes 0(v*v)
+for undirected graph, the adjacency matrix is symmetrical.
+for directed graph,it can be symmetrical or unsymmetrical.
+
+->adjacency list: representation of graph which takes 0(V+2E)-> undirected graph
+                representation of graph which take 0(V+E)->directed graph
+can be implmented in 2ways:
+dynamic sized arrays-cache friendly,easy to implement
+linked lists
