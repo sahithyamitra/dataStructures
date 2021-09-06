@@ -37,3 +37,6 @@ for directed graph,it can be symmetrical or unsymmetrical.
 can be implmented in 2ways:
 dynamic sized arrays-cache friendly,easy to implement
 linked lists
+
+BFS: breadth first search-source vertex,friends of source vertex,friends of friends of source vertex.
+Approach: using queue data structure
